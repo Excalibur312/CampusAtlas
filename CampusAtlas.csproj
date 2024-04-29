@@ -77,6 +77,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\CampusAtlas.mdf" />
+    <Content Include="App_Data\CampusAtlas_log.ldf">
+      <DependentUpon>CampusAtlas.mdf</DependentUpon>
+    </Content>
     <Content Include="homepage.aspx" />
     <Content Include="style.css" />
     <Content Include="uni.aspx" />
