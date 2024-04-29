@@ -79,6 +79,7 @@
   <ItemGroup>
     <Content Include="homepage.aspx" />
     <Content Include="style.css" />
+    <Content Include="uni.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +91,13 @@
       <DependentUpon>homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uni.aspx.cs">
+      <DependentUpon>uni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uni.aspx.designer.cs">
+      <DependentUpon>uni.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Dockerfile" />

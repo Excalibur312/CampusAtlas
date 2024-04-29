@@ -9,7 +9,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
     function goToUniPage(location) {
-    var url = "uni.php?location=" + encodeURIComponent(location);
+    var url = "uni.aspx?location=" + encodeURIComponent(location);
     window.open(url, "_blank");
   }
 </script>
@@ -27,7 +27,7 @@
   <h2 class="dark">Click on the city you want to learn about the universities on the map.</h1>
   <div id="turkey-map" class="bg-light">
     <div class="image-container bg-light">
-      <img src="turkey-map.jpg" alt="Turkey Map" usemap="#turkeymap">
+      <img src="turkey-mapnew.jpg" alt="Turkey Map" usemap="#turkeymap">
        <map name="turkeymap">
         <area alt="edirne" title="Edirne" target="_blank" href=""  onclick="goToUniPage(this.title)" coords="217,114 175,132 193,157 193,157 186,183 160,196 160,196 139,253 188,250 188,248 186,209 186,209 212,201 212,201 212,163 212,163 224,132 224,132 " shape="polygon">      
         <area alt="kirklareli" title="Kirklareli" href="" onclick="goToUniPage(this.title)" coords="222,111 255,108 284,124 310,119 315,160 276,173 266,199 217,178 230,139 " shape="polygon">
@@ -117,7 +117,7 @@
 
 <script>
   function goToUniPage(location) {
-  var url = "uni.php?location=" + encodeURIComponent(location);
+  var url = "uni.aspx?location=" + encodeURIComponent(location);
   window.open(url, "_blank");
   }
 
