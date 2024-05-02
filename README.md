@@ -7,3 +7,6 @@ The use of our project can download the project directly and connect to the data
 You can download the CampusAtlas.dbo of the project and connect it easily, in the future part of the project we will make the DBO online and make it easy to use.
 
 [CampusAtlasReport.pdf](https://github.com/Excalibur312/CampusAtlas/files/15188989/CampusAtlasReport.pdf)
+
+You can display the project video from this url:
+https://www.canva.com/design/DAGDycmirqA/zAOSMkfcu8rTWrXbcTyQ3g/edit?utm_content=DAGDycmirqA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
