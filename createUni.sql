@@ -1,4 +1,12 @@
-﻿INSERT INTO uni (id,name,location,type,url) VALUES  ( 1 , 'ABDULLAH GÜL ÜNİVERSİTESİ' , 'Kayseri' , 'Devlet' , 'http://www.agu.edu.tr' );
+CREATE TABLE uni (  
+    id int ,  
+    name VARCHAR(100) UNIQUE,  
+    location VARCHAR(100),  
+    type VARCHAR(100),  
+    url VARCHAR(100),  
+    CONSTRAINT fk_uni_location FOREIGN KEY (location) REFERENCES city (name)  
+);
+INSERT INTO uni (id,name,location,type,url) VALUES  ( 1 , 'ABDULLAH GÜL ÜNİVERSİTESİ' , 'Kayseri' , 'Devlet' , 'http://www.agu.edu.tr' );
 INSERT INTO uni (id,name,location,type,url) VALUES  ( 2 , 'ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ' , 'İstanbul' , 'Vakıf' , 'http://www.acibadem.edu.tr' );
 INSERT INTO uni (id,name,location,type,url) VALUES  ( 3 , 'ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ' , 'Adana' , 'Devlet' , 'http://www.atu.edu.tr' );
 INSERT INTO uni (id,name,location,type,url) VALUES  ( 4 , 'ADIYAMAN ÜNİVERSİTESİ' , 'Adıyaman' , 'Devlet' , 'http://www.adiyaman.edu.tr/' );
