@@ -14,7 +14,7 @@ https://www.canva.com/design/DAGDycmirqA/zAOSMkfcu8rTWrXbcTyQ3g/edit?utm_content
 You can run this script for creating database and creating tables : 
 https://github.com/Excalibur312/CampusAtlas/blob/master/script.sql
 
-You can run this scripts for adding rows into tables : 
+You can run these scripts for adding rows into tables : 
   - city table: https://github.com/Excalibur312/CampusAtlas/blob/master/insertCity.sql
 
   - uni table: https://github.com/Excalibur312/CampusAtlas/blob/master/insertUni.sql
