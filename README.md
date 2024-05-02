@@ -11,4 +11,10 @@ You can download the CampusAtlas.dbo of the project and connect it easily, in th
 You can display the project video from end of the file at this url:
 https://www.canva.com/design/DAGDycmirqA/zAOSMkfcu8rTWrXbcTyQ3g/edit?utm_content=DAGDycmirqA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+You can run this script for creating database and creating tables : 
+https://github.com/Excalibur312/CampusAtlas/blob/master/script.sql
 
+You can run this scripts for adding rows into tables : 
+  - city table: https://github.com/Excalibur312/CampusAtlas/blob/master/insertCity.sql
+
+  - uni table: https://github.com/Excalibur312/CampusAtlas/blob/master/insertUni.sql
