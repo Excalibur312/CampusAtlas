@@ -8,5 +8,5 @@ You can download the CampusAtlas.dbo of the project and connect it easily, in th
 
 [CampusAtlasReport.pdf](https://github.com/Excalibur312/CampusAtlas/files/15188989/CampusAtlasReport.pdf)
 
-You can display the project video from this url:
+You can display the project video from end of the file at this url:
 https://www.canva.com/design/DAGDycmirqA/zAOSMkfcu8rTWrXbcTyQ3g/edit?utm_content=DAGDycmirqA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
