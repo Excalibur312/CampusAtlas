@@ -1,9 +1,4 @@
-﻿ create table city (  
-        id int primary key,  
-        name varchar(100) unique , 
-        region  varchar(20) 
-    );
-    
+
 INSERT INTO city (id, name,region) VALUES (1, 'Adana','Akdeniz');
 
 INSERT INTO city (id, name,region) VALUES(2, 'Adıyaman','Güneydoğu Anadolu');
