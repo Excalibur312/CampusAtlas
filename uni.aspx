@@ -13,6 +13,16 @@
         <asp:Label ID="locationLabel" runat="server" Text=""></asp:Label>
         <asp:ScriptManager runat="server"></asp:ScriptManager>
         <asp:TextBox ID="locationTextBox" runat="server"></asp:TextBox>
+                <style>
+    .table td {
+        font-size: 30px;  
+    }
+
+    .table th {
+        font-size: 40px;  
+    }
+</style>
+
         <div runat="server" id="resultDiv"></div>
     </form>
 </body>

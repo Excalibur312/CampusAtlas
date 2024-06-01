@@ -1,5 +1,4 @@
-﻿
-header {
+﻿header {
     margin-top: 50px;
     font-size: 150px;
     text-align: center;
@@ -11,12 +10,28 @@ h1 {
     font-size: 100px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
 
+h2 {
+    color: #343a40;
+}
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(198, 201, 201);
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+    .table th, .table td {
+        vertical-align: middle !important;
+    }
+
+.table-info {
+    background-color: #d1ecf1;
+}
+
+.table-responsive {
+    overflow-x: auto;
 }

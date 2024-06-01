@@ -85,6 +85,7 @@
     <Content Include="style.css" />
     <Content Include="uni.aspx" />
     <Content Include="Web.config" />
+    <Content Include="faculty.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="homepage.aspx.cs">
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="uni.aspx.designer.cs">
       <DependentUpon>uni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faculty.aspx.cs">
+      <DependentUpon>faculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faculty.aspx.designer.cs">
+      <DependentUpon>faculty.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
