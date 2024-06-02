@@ -18,3 +18,5 @@ You can run these scripts for adding rows into tables :
   - city table: https://github.com/Excalibur312/CampusAtlas/blob/master/insertCity.sql  
 
   - uni table: https://github.com/Excalibur312/CampusAtlas/blob/master/insertUni.sql
+
+we have a new update for uni table : https://github.com/Excalibur312/CampusAtlas/blob/master/updateUniTable
