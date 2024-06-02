@@ -160,3 +160,5 @@ INSERT INTO city (id, name,region) VALUES(79, 'Kilis','Güneydoğu Anadolu');
 INSERT INTO city (id, name,region) VALUES(80, 'Osmaniye','Akdeniz');
 
 INSERT INTO city (id, name,region) VALUES(81, 'Düzce','Karadeniz');
+
+INSERT INTO city (id, name,region) VALUES(82, 'YurtDisi','YurtDisi');
